@@ -1,0 +1,80 @@
+@CHARSET "ISO-8859-1";
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body{
+    background:linear-gradient(to right,#5bc4df 5%,#6555c0 15%,rgb(184, 223, 236)); 
+}
+nav{
+    position:fixed;
+    background-color: rgb(8, 8, 8,0.8);
+    width: 100%;
+    height: 75px;
+    padding: 7px 7px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:Calibri;
+    font-weight: bold;
+
+}
+li{
+    margin:20px;
+    padding: 15px 20px;
+    width: 120px;
+    list-style: none;
+    float: left;
+    text-align: center;
+    border-right: 1px solid white;
+}
+#logo{
+    width: 6%;
+    height: 100%;
+    border-radius: 30px;
+    float: left;
+}
+li:hover{
+    background-color:rgb(255, 140, 0,0.8)
+}
+table{
+    background-color: #fafafa;
+    margin-top: 10px;
+    z-index:1;    
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: center;
+    border-radius: 12px 12px 0 0;
+}
+th{
+	background-color:rgba(1, 6, 10, 0.8);
+    color: snow;
+    font-size: 18px;
+    padding: 8px;
+}
+td{
+    font-size:17px;
+    padding: 8px;
+}
+tr:nth-child(odd){
+    background-color: rgb(175, 169, 169,0.5);
+}
+p{  
+	color:rgb(19, 16, 12);
+    font-family: Cambria;
+    font-weight: bolder;
+    font-size: 45px;
+    margin-top:80px;
+    margin-left:10px;
+    padding: 5px;
+}
+button{
+	padding:3px;
+}
+button:hover{
+	background-color: lightslategray;
+}
+

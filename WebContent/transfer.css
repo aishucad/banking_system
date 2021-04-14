@@ -1,0 +1,38 @@
+@CHARSET "ISO-8859-1";
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background:linear-gradient(to right,#5bc4df 5%,#6555c0 15%,rgb(184, 223, 236)); 
+}
+h1{
+  margin: 20px;
+  font-size: 50px;
+  color: black;
+}
+form{
+	
+    background-color:rgb(250, 250, 233,0.4);
+    margin: 30px;
+    width: 50%;
+    padding: 20px;
+}
+label{
+    margin:25px 0px;
+    font-size: 20px;
+}
+button{
+    font-size: 15px;
+    padding: 5px;
+    font-weight: bolder;
+    background-color: rgba(236, 186, 211, 0.45);
+}
+button:hover{
+    background-color: lightslategray;
+}
+input{
+    padding:10px;
+    width: 60%;
+    display:flex;
+}

@@ -1,0 +1,44 @@
+@CHARSET "ISO-8859-1";
+table{
+	background-color:blue;
+}
+.mainhead{	
+	font-size:100px;
+	color:blue;
+}
+nav{
+    position:fixed;
+    background-color: rgb(8, 8, 8,0.8);
+    width: 100%;
+    height: 75px;
+    padding: 7px 7px;
+}
+#navigation{
+    z-index: 1;   
+}
+li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+}
+li{
+    margin:20px;
+    padding: 15px 20px;
+    width: 120px;
+    list-style: none;
+    float: left;
+    text-align: center;
+    border-right: 1px solid white;
+}
+#logo{
+    width: 6%;
+    height: 100%;
+    border-radius: 30px;
+    float: left;
+}
+li:hover{
+    background-color:rgb(255, 140, 0,0.8)
+}
